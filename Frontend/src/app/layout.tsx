@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Cateye",
-  description: "Cateye application",
+  title: "Cateye — สมุดบันทึกการผจญภัย",
+  description: "เก็บทุกการผจญภัยในเกม เควส และตัวละครที่คุณอยากจำ",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

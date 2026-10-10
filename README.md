@@ -62,6 +62,11 @@ Copy-Item .env.example .env
 - ค่า CORS ปรับได้ผ่าน `CORS_ORIGINS` ใน `Backend/.env` โดยใช้ JSON array
 - URL ของ API ปรับได้ผ่าน `NEXT_PUBLIC_API_URL` ใน `Frontend/.env.local`
 
+## Database
+
+ใช้ **PostgreSQL + SQLAlchemy ORM** พร้อม Alembic migrations
+ดู [วิธีเริ่มฐานข้อมูลและตัวอย่าง ORM query](Backend/DATABASE.md)
+
 ## Git
 
 Repository อยู่ที่รากโปรเจค ครอบคลุมทั้ง Frontend และ Backend
